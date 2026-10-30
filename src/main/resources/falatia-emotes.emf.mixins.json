@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "org.falatia.emotes.mixin.emf",
+	"plugin": "org.falatia.emotes.compat.EmfMixinPlugin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"EMFModelPartBendMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

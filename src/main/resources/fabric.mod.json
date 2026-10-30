@@ -1,0 +1,48 @@
+{
+	"schemaVersion": 1,
+	"id": "falatia-emotes",
+	"version": "${version}",
+	"name": "Falatia Emotes",
+	"description": "The mod adds an emote wheel that allows players to play custom in-game animation.",
+	"authors": [
+		"FalatiaProject"
+	],
+	"contact": {
+		"homepage": "https://falatia.com/",
+		"sources": "https://github.com/happyz3ne/FalatiaEmotes"
+	},
+	"license": "Falatia Source-Available License 1.0",
+	"icon": "assets/falatia-emotes/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"org.falatia.emotes.FalatiaEmotes"
+		],
+		"modmenu": [
+			"org.falatia.emotes.compat.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		"falatia-emotes.mixins.json",
+		"falatia-emotes.emf.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"modmenu": "*"
+	},
+	"breaks": {
+		"falatia-essentials": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.discord": "https://discord.com/invite/5QXUCSsVVw"
+			}
+		}
+	}
+}

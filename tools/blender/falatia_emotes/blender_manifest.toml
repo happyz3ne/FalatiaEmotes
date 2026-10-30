@@ -1,0 +1,15 @@
+schema_version = "1.0.0"
+
+id = "falatia_emotes"
+version = "1.5.0"
+name = "Falatia Emotes Blender Addon"
+tagline = "Blender extension for creating emotes (Falatia Emotes)"
+maintainer = "FalatiaProject"
+type = "add-on"
+
+blender_version_min = "4.4.0"
+
+license = ["SPDX:GPL-3.0-or-later"]
+
+[permissions]
+files = "Writes emotes and icons to the game's emotes folder"

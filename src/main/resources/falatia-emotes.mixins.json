@@ -1,0 +1,19 @@
+{
+	"required": true,
+	"package": "org.falatia.emotes.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"AvatarRendererEmoteMixin",
+		"AvatarRenderStateEmoteMixin",
+		"HumanoidModelEmoteMixin",
+		"LivingEntityHurtMixin",
+		"ModelPartBendMixin",
+		"PlayerModelBendMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

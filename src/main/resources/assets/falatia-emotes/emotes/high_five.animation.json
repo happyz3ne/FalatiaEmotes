@@ -1,0 +1,100 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.falatia.high_five": {
+			"loop": false,
+			"animation_length": 1.6,
+			"falatia": {
+				"name": "falatia_emotes.emote.high_five",
+				"description": "falatia_emotes.emote.high_five.description",
+				"author": "Falatia",
+				"pair": {"partner": "animation.falatia.high_five.partner", "offset": [0.59, 0, 0.95], "facing": 180, "wait": [0.3, 0.7]}
+			},
+			"bones": {
+				"right_arm": {
+					"rotation": {
+						"0.0": {"post": [0, 0, 0], "lerp_mode": "catmullrom"},
+						"0.3": {"post": [-150, 0, 8], "lerp_mode": "catmullrom"},
+						"0.5": {"post": [-150, 0, -4], "lerp_mode": "catmullrom"},
+						"0.7": {"post": [-150, 0, 8], "lerp_mode": "catmullrom"},
+						"0.85": {"post": [-164, 0, 6], "lerp_mode": "catmullrom"},
+						"0.95": {"post": [-126, 0, 0], "lerp_mode": "catmullrom"},
+						"1.1": {"post": [-140, 0, 4], "lerp_mode": "catmullrom"},
+						"1.5": {"post": [0, 0, 0], "lerp_mode": "catmullrom"}
+					}
+				},
+				"head": {
+					"rotation": {
+						"0.0": {"post": [0, 0, 0], "lerp_mode": "catmullrom"},
+						"0.3": {"post": [-12, 0, 0], "lerp_mode": "catmullrom"},
+						"0.95": {"post": [-12, 0, 0], "lerp_mode": "catmullrom"},
+						"1.5": {"post": [0, 0, 0], "lerp_mode": "catmullrom"}
+					}
+				},
+				"body": {
+					"rotation": {
+						"0.85": {"post": [0, 0, 0], "lerp_mode": "catmullrom"},
+						"0.95": {"post": [6, 0, 0], "lerp_mode": "catmullrom"},
+						"1.2": {"post": [0, 0, 0], "lerp_mode": "catmullrom"}
+					}
+				},
+				"root": {
+					"position": {
+						"1.0": {"post": [0, 0, 0], "lerp_mode": "catmullrom"},
+						"1.12": {"post": [0, 1.2, 0], "lerp_mode": "catmullrom"},
+						"1.25": {"post": [0, 0, 0], "lerp_mode": "catmullrom"}
+					}
+				}
+			},
+			"sound_effects": {
+				"0.95": [
+					{"effect": "minecraft:entity.player.attack.strong", "volume": 0.9, "pitch": 1.5},
+					{"effect": "minecraft:block.note_block.hat", "volume": 0.7, "pitch": 1.8}
+				]
+			},
+			"particle_effects": {
+				"0.95": [
+					{"effect": "minecraft:crit", "locator": "right_hand", "offset": [0, 0.15, 0.1], "count": 8, "spread": [0.1, 0.1, 0.1], "speed": 0.25},
+					{"effect": "preset:sparkles", "locator": "right_hand"}
+				]
+			}
+		},
+		"animation.falatia.high_five.partner": {
+			"loop": false,
+			"animation_length": 1.6,
+			"bones": {
+				"right_arm": {
+					"rotation": {
+						"0.0": {"post": [-150, 0, 8], "lerp_mode": "catmullrom"},
+						"0.7": {"post": [-150, 0, 8], "lerp_mode": "catmullrom"},
+						"0.85": {"post": [-164, 0, 6], "lerp_mode": "catmullrom"},
+						"0.95": {"post": [-126, 0, 0], "lerp_mode": "catmullrom"},
+						"1.1": {"post": [-140, 0, 4], "lerp_mode": "catmullrom"},
+						"1.5": {"post": [0, 0, 0], "lerp_mode": "catmullrom"}
+					}
+				},
+				"head": {
+					"rotation": {
+						"0.0": {"post": [-12, 0, 0], "lerp_mode": "catmullrom"},
+						"0.95": {"post": [-12, 0, 0], "lerp_mode": "catmullrom"},
+						"1.5": {"post": [0, 0, 0], "lerp_mode": "catmullrom"}
+					}
+				},
+				"body": {
+					"rotation": {
+						"0.85": {"post": [0, 0, 0], "lerp_mode": "catmullrom"},
+						"0.95": {"post": [6, 0, 0], "lerp_mode": "catmullrom"},
+						"1.2": {"post": [0, 0, 0], "lerp_mode": "catmullrom"}
+					}
+				},
+				"root": {
+					"position": {
+						"1.0": {"post": [0, 0, 0], "lerp_mode": "catmullrom"},
+						"1.12": {"post": [0, 1.2, 0], "lerp_mode": "catmullrom"},
+						"1.25": {"post": [0, 0, 0], "lerp_mode": "catmullrom"}
+					}
+				}
+			}
+		}
+	}
+}

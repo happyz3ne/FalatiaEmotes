@@ -1,0 +1,71 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.falatia.magic_trick": {
+			"animation_length": 3.2,
+			"falatia": {"name": "falatia_emotes.emote.magic_trick", "description": "falatia_emotes.emote.magic_trick.description", "author": "Falatia"},
+			"bones": {
+				"right_arm": {
+					"rotation": {
+						"0.0": {"post": [0, 0, 0], "lerp_mode": "catmullrom"},
+						"0.6": {"post": [0, 0, 150], "lerp_mode": "catmullrom"},
+						"1.0": {"post": [0, 0, 140], "lerp_mode": "catmullrom"},
+						"1.4": {"post": [0, 0, 155], "lerp_mode": "catmullrom"},
+						"1.9": {"post": [-95, 0, -12], "lerp_mode": "catmullrom"},
+						"2.3": {"post": [-95, 0, -12], "lerp_mode": "catmullrom"},
+						"3.0": {"post": [0, 0, 0], "lerp_mode": "catmullrom"}
+					}
+				},
+				"left_arm": {
+					"rotation": {
+						"0.0": {"post": [0, 0, 0], "lerp_mode": "catmullrom"},
+						"0.6": {"post": [0, 0, -150], "lerp_mode": "catmullrom"},
+						"1.0": {"post": [0, 0, -140], "lerp_mode": "catmullrom"},
+						"1.4": {"post": [0, 0, -155], "lerp_mode": "catmullrom"},
+						"1.9": {"post": [-95, 0, 12], "lerp_mode": "catmullrom"},
+						"2.3": {"post": [-95, 0, 12], "lerp_mode": "catmullrom"},
+						"3.0": {"post": [0, 0, 0], "lerp_mode": "catmullrom"}
+					}
+				},
+				"head": {
+					"rotation": {
+						"0.0": {"post": [0, 0, 0], "lerp_mode": "catmullrom"},
+						"0.6": {"post": [-15, 0, 0], "lerp_mode": "catmullrom"},
+						"1.4": {"post": [-15, 0, 0], "lerp_mode": "catmullrom"},
+						"1.9": {"post": [8, 0, 0], "lerp_mode": "catmullrom"},
+						"3.0": {"post": [0, 0, 0], "lerp_mode": "catmullrom"}
+					}
+				},
+				"root": {
+					"position": {
+						"0.0": {"post": [0, 0, 0], "lerp_mode": "catmullrom"},
+						"1.4": {"post": [0, 0, 0], "lerp_mode": "catmullrom"},
+						"1.7": {"post": [0, 2.5, 0], "lerp_mode": "catmullrom"},
+						"1.95": {"post": [0, -0.8, 0], "lerp_mode": "catmullrom"},
+						"2.3": {"post": [0, 0, 0], "lerp_mode": "catmullrom"}
+					}
+				}
+			},
+			"sound_effects": {
+				"0.6": {"effect": "minecraft:block.amethyst_block.chime", "volume": 1.0, "pitch": 1.2},
+				"1.1": {"effect": "minecraft:block.amethyst_block.chime", "volume": 1.0, "pitch": 1.6},
+				"1.95": [
+					{"effect": "minecraft:entity.firework_rocket.twinkle", "volume": 0.9, "pitch": 1.0},
+					{"effect": "minecraft:entity.evoker.cast_spell", "volume": 0.6, "pitch": 1.4}
+				]
+			},
+			"particle_effects": {
+				"0.6": [
+					{"effect": "preset:sparkles", "locator": "right_hand"},
+					{"effect": "preset:sparkles", "locator": "left_hand"}
+				],
+				"1.0": {"effect": "minecraft:enchant", "locator": "head", "offset": [0, 0.6, 0], "count": 25, "spread": [0.5, 0.4, 0.5], "speed": 0.8},
+				"1.95": [
+					{"effect": "minecraft:dust", "options": {"color": [0.55, 0.3, 1.0], "scale": 1.4}, "locator": "right_hand", "offset": [0.15, 0, 0.2], "count": 16, "spread": [0.25, 0.25, 0.25]},
+					{"effect": "minecraft:firework", "locator": "right_hand", "offset": [0.15, 0, 0.2], "count": 10, "spread": [0.1, 0.1, 0.1], "speed": 0.12},
+					{"effect": "preset:smoke"}
+				]
+			}
+		}
+	}
+}

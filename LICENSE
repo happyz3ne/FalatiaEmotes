@@ -1,0 +1,95 @@
+Falatia Source-Available License 1.0
+
+Copyright (c) 2026 FalatiaProject. All rights reserved except as granted below.
+
+This license applies to the source code, compiled builds and assets of this project
+(the "Software"). You are free to use the Software, change it and build on top of it.
+The one thing it is not for is taking its code apart and reusing it in other projects.
+
+1. Definitions
+
+   "You" means any person or organization exercising rights under this license.
+
+   "Other Project" means any software, mod, plugin, library, tool or service that is not
+   the Software itself or a modified version of it, whether it is free or paid, public
+   or private, open or closed source, and whatever its size.
+
+2. What you may do
+
+   a. View and study. You may read the source code and learn from it.
+
+   b. Use. You may run the Software, official or modified, for any purpose, including on
+      public, private and monetized servers.
+
+   c. Use in your projects. You may use the Software as part of your own projects, such
+      as servers, modpacks, maps, videos and streams, and you may build Other Projects
+      that work alongside the Software or depend on it.
+
+   d. Modify. You may change the Software, build it and use your modified version
+      yourself, on your servers and in your community.
+
+   e. Share modified source. You may publish your modified source code, for example as a
+      public fork, as long as it keeps this license, keeps the credit to FalatiaProject
+      and clearly states that it is modified.
+
+   f. Contribute. You may propose changes back to this project. By submitting a
+      contribution, you agree that FalatiaProject may use, change and distribute it under
+      this license or any other terms.
+
+   g. Share the official release. You may include unmodified official builds of the
+      Software in modpacks, server packs and similar collections, provided that you do
+      not charge for the Software itself and you credit FalatiaProject with a link to
+      the official project page.
+
+   h. Make content. Emotes, animations, icons and other content you create for use with
+      the Software belong to you. This license places no restrictions on them.
+
+3. What you may not do
+
+   a. Copy any part of the Software into an Other Project. This covers source code,
+      classes, methods, algorithms as written here, shaders, assets and data formats as
+      implemented here, in whole or in part, copied directly, rewritten line by line,
+      translated into another programming language or otherwise adapted from this code.
+
+   b. Upload the Software or a modified build of it to download sites or mod hosting
+      platforms as your own project, except as allowed in section 2(g).
+
+   c. Sell the Software or a modified version of it, or charge for access to it.
+
+   d. Remove or change copyright notices, this license or the credit to FalatiaProject.
+
+   e. Use the names "Falatia" or "FalatiaProject", or the project's logos, in a way that
+      suggests your work is official or endorsed, without written permission.
+
+4. Compatibility
+
+   Writing an independent, compatible implementation that works with the Software,
+   such as a server, a client or a tool that reads or writes the same files, is
+   allowed, provided that it does not reuse any part of the Software as described in
+   section 3(a).
+
+5. Third-party components
+
+   Parts of this repository may be covered by their own licenses. Those licenses apply
+   to those parts instead of this one. In particular, the Blender add-on in
+   tools/blender is licensed under the GNU General Public License, version 3 or later.
+
+6. Other permissions
+
+   If you want to do something this license does not allow, ask FalatiaProject. Any
+   additional permission must be given in writing.
+
+7. Termination
+
+   If you break the terms of this license, your rights under it end automatically.
+   They are restored if you fix the breach within 30 days of being notified, unless you
+   have broken the terms before.
+
+8. No warranty
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+   INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+   PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL FALATIAPROJECT BE LIABLE
+   FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+   OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+   OTHER DEALINGS IN THE SOFTWARE.

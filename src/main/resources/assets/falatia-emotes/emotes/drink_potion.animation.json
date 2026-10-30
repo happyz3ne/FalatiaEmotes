@@ -1,0 +1,59 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.falatia.drink_potion": {
+			"animation_length": 3.2,
+			"falatia": {"name": "falatia_emotes.emote.drink_potion", "description": "falatia_emotes.emote.drink_potion.description", "author": "Falatia"},
+			"bones": {
+				"right_arm": {
+					"rotation": {
+						"0.0": {"post": [0, 0, 0], "lerp_mode": "catmullrom"},
+						"0.45": {"post": [-104, -27, 0], "lerp_mode": "catmullrom"},
+						"2.1": {"post": [-110, -29, 0], "lerp_mode": "catmullrom"},
+						"2.6": {"post": [0, 0, 0], "lerp_mode": "catmullrom"}
+					}
+				},
+				"head": {
+					"rotation": {
+						"0.0": {"post": [0, 0, 0], "lerp_mode": "catmullrom"},
+						"0.5": {"post": [-22, 0, 0], "lerp_mode": "catmullrom"},
+						"2.0": {"post": [-25, 0, 0], "lerp_mode": "catmullrom"},
+						"2.5": {"post": [0, 0, 0], "lerp_mode": "catmullrom"},
+						"2.75": {"post": [6, 0, -4], "lerp_mode": "catmullrom"},
+						"3.2": {"post": [0, 0, 0], "lerp_mode": "catmullrom"}
+					}
+				},
+				"body": {
+					"rotation": {
+						"0.0": {"post": [0, 0, 0], "lerp_mode": "catmullrom"},
+						"0.5": {"post": [-4, 0, 0], "lerp_mode": "catmullrom"},
+						"2.0": {"post": [-4, 0, 0], "lerp_mode": "catmullrom"},
+						"2.5": {"post": [0, 0, 0], "lerp_mode": "catmullrom"}
+					}
+				},
+				"left_arm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 0, -8],
+						"2.4": [0, 0, -8],
+						"2.9": [0, 0, 0]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.6": {"effect": "minecraft:entity.generic.drink", "volume": 1.0, "pitch": 1.0},
+				"1.15": {"effect": "minecraft:entity.generic.drink", "volume": 1.0, "pitch": 1.1},
+				"1.7": {"effect": "minecraft:entity.generic.drink", "volume": 1.0, "pitch": 0.95},
+				"2.75": {"effect": "minecraft:entity.player.burp", "volume": 0.9, "pitch": 1.0}
+			},
+			"particle_effects": {
+				"0.8": {"effect": "minecraft:entity_effect", "options": {"color": [0.72, 0.35, 1.0, 1.0]}, "locator": "right_hand", "count": 3, "spread": [0.08, 0.08, 0.08]},
+				"1.4": {"effect": "minecraft:entity_effect", "options": {"color": [0.72, 0.35, 1.0, 1.0]}, "locator": "right_hand", "count": 3, "spread": [0.08, 0.08, 0.08]},
+				"2.8": [
+					{"effect": "minecraft:entity_effect", "options": {"color": [0.72, 0.35, 1.0, 1.0]}, "locator": "body", "count": 14, "spread": [0.35, 0.6, 0.35]},
+					{"effect": "minecraft:effect", "options": {"color": [1.0, 0.85, 0.3], "power": 1.0}, "locator": "head", "count": 6, "spread": [0.3, 0.2, 0.3]}
+				]
+			}
+		}
+	}
+}

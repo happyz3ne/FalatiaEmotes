@@ -1,0 +1,47 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.falatia.wave": {
+			"animation_length": 2.4,
+			"falatia": {"name": "falatia_emotes.emote.wave", "description": "falatia_emotes.emote.wave.description", "author": "Falatia"},
+			"bones": {
+				"right_arm": {
+					"rotation": {
+						"0.0": {"post": [0, 0, 0], "lerp_mode": "catmullrom"},
+						"0.35": {"post": [-15, 0, 150], "lerp_mode": "catmullrom"},
+						"0.6": {"post": [-15, 0, 120], "lerp_mode": "catmullrom"},
+						"0.85": {"post": [-15, 0, 155], "lerp_mode": "catmullrom"},
+						"1.1": {"post": [-15, 0, 120], "lerp_mode": "catmullrom"},
+						"1.35": {"post": [-15, 0, 155], "lerp_mode": "catmullrom"},
+						"1.6": {"post": [-15, 0, 125], "lerp_mode": "catmullrom"},
+						"2.05": {"post": [0, 0, 0], "lerp_mode": "catmullrom"}
+					}
+				},
+				"left_arm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.4": [0, 0, -6],
+						"2.0": [0, 0, -6],
+						"2.4": [0, 0, 0]
+					}
+				},
+				"head": {
+					"rotation": {
+						"0.0": {"post": [0, 0, 0], "lerp_mode": "catmullrom"},
+						"0.4": {"post": [-8, -12, 6], "lerp_mode": "catmullrom"},
+						"1.8": {"post": [-8, -12, 6], "lerp_mode": "catmullrom"},
+						"2.3": {"post": [0, 0, 0], "lerp_mode": "catmullrom"}
+					}
+				},
+				"body": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.4": [0, 0, 3],
+						"2.0": [0, 0, 3],
+						"2.4": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}
